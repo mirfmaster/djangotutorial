@@ -67,6 +67,10 @@ return render(request, "polls/index.html", context)
 forloop.counter indicates how many times the for tag has gone through its loop
 ```
 
+- Static file namespacing
+
+location: `{app}/static/{app}/style.css`
+
 # TODO:
 - Need to read django.shortcuts package
 https://docs.djangoproject.com/en/5.1/topics/http/shortcuts/#module-django.shortcuts
